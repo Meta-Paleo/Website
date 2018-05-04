@@ -1,0 +1,9 @@
+name: "MetaPaleo"  
+author: "Jon Tennant"  
+output_dir: "C:/Users/PC/Documents/Website"  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: flatly  
+navbar:  
+  title: "MetaPaleo" 
