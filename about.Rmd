@@ -1,0 +1,10 @@
+---
+title: "About This Website"
+---
+
+This website is dedicated to the MetaPaleo research project. MetaPaleo is a series of interactive, collaborative and openly participatory sub-projects investigating large-scale aspects of Palaeontology research. Current projects include:
+
+ - [OpenPaleo](https://github.com/Meta-Paleo/OpenPaleo)
+ - [TimeSeries](https://github.com/Meta-Paleo/TimeSeries)
+ 
+ Want to propose something else? All data, code, methods, and live results are all available on [GitHub](https://github.com/Meta-Paleo/). Anyone can contribute anything they want to this, irrespective of past experience.
