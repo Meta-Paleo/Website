@@ -1,0 +1,7 @@
+---
+title: "TimeSeries"
+---
+
+# TimeSeries
+
+This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/TimeSeries).

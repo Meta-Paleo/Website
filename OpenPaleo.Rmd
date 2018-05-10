@@ -1,0 +1,13 @@
+---
+title: "OpenPaleo"
+---
+
+# OpenPaleo
+
+This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/OpenPaleo).
+
+
+## Contributors
+- Dr. Jon Tennant
+- Prof. Dasapta Erwin Irawan
+- Dr. Manojku 

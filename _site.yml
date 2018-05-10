@@ -4,19 +4,18 @@ output_dir: "C:/Users/PC/Documents/Website"
 output:  
   html_document:  
     self_contained: no  
-    theme: cosmo
-    highlight: textmate
+    theme: flatly
     include:
-      after_body: footer.html 
+      after_body: footer.html
 navbar:  
   title: "MetaPaleo"
   type: inverse 
   left:
-  - text: "Home"
-  href: index.html
-  - text: "About"
-  href: about.html
-  - text: "OpenPaleo"
-  href: https://github.com/Meta-Paleo/OpenPaleo
-  - text: "TimeSeries"
-  href: https://github.com/Meta-Paleo/TimeSeries
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "OpenPaleo"
+      href: OpenPaleo.html
+    - text: "TimeSeries"
+      href: TimeSeries.html 
