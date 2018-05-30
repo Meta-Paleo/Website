@@ -1,8 +1,6 @@
 ---
-title: "About This Website"
+title: "About MetaPaleo"
 ---
-
-# Welcome to MetaPaleo
 
 This website is dedicated to the MetaPaleo research project. MetaPaleo is a series of interactive, collaborative and openly participatory sub-projects investigating large-scale aspects of Palaeontology research. Current projects include:
 

@@ -1,3 +1,13 @@
 ---
-title: "PeerReview"
+title: "Peer Review Transparency"
 ---
+
+## Project concept
+
+Peer review is widely considered fundamental to maintaining the rigour and validty of scholarly research. However, the process is often opaque, which can introduce bias into reporting standards for research, which reduces the overall quality of the published record.
+
+Presently, peer review is a non-standardised process, either across or within disciplines. Training and support is generally lacking, and it is often the case that reviewers, through no fault of their own, are unaware of the critical questions to be asking with respect to research design, methods, reporting, and analysis.
+
+The aim of this project, therefore, is to create a community-crafted set of guidelines and a checklist for reviewers that can help to provide more rigour into the review process. This is specifically geared at palaeontologists, and based on studies such as that by Parker et al. (2018) and the Peer Reviewers Openess Initiative.
+
+There is a great potential for such guidelines to become commonly adopted, to help strengthen the overall review process, while acting as an educational resource for reviewers. We anticipate that this will help to reduce bias and increase transparency, overall increasing the health of peer review in Palaeontology, and therefore become a valuable resource for the global Palaeontology community.

@@ -2,7 +2,17 @@
 title: "OpenPaleo"
 ---
 
-# Welcome to OpenPaleo
+## Project concept
+
+The idea of this project is to perform a range of meta-analyses into the published Palaeontology literature. This will include looking at factors such as:
+
+* Quantitative analysis of the 'openness' of Palaeontology research.
+* Citation frequences for different journals, compared to their impact factors.
+* How aware researchers are that they may have signed away copyright.
+
+We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.
+
+Ultimately, this information might prove useful in developing standards, protocols, and best practices for palaeontological research and publishing.
 
 This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/OpenPaleo).
 
