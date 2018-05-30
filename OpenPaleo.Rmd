@@ -17,6 +17,7 @@ Ultimately, this information might prove useful in developing standards, protoco
 This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/OpenPaleo).
 
 ## Contributors
+
 - Dr. Jon Tennant
 - Prof. Dasapta Erwin Irawan
 - Manojkumar Selvaraju
