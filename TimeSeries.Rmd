@@ -1,8 +1,9 @@
 ---
-title: "TimeSeries"
+title: "Time Series"
 ---
 
-## Project concepts
+## Project concept
+
 The purpose of this project is to design a standardised protocol for the analysis of palaeontological time series data. This will include aspects such as:
 
 * How to treat missing data.

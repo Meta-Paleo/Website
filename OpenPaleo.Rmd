@@ -1,5 +1,5 @@
 ---
-title: "OpenPaleo"
+title: "Open Paleo"
 ---
 
 ## Project concept

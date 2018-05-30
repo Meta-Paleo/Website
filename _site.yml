@@ -15,9 +15,9 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "OpenPaleo"
+    - text: "Open Paleo"
       href: OpenPaleo.html
-    - text: "TimeSeries"
+    - text: "Time Series"
       href: TimeSeries.html
     - text: "Peer Review Transparency"
       href: PeerReview.html
