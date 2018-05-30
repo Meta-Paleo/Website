@@ -15,3 +15,5 @@ h3 {
 blockquote {
   font-style: italic
 }
+
+img[alt=Tyrannosaurus] { width: 1500px; height: 150px;}
