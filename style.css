@@ -1,0 +1,17 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+html {
+  font-size: 1em;
+  font-family: "Times New Roman";
+  color: black;
+}
+
+h3 {
+  font-style: italic;
+}
+
+blockquote {
+  font-style: italic
+}

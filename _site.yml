@@ -3,9 +3,11 @@ author: "Jon Tennant"
 output_dir: "C:/Users/PC/Documents/Website"  
 output:  
   html_document:  
-    self_contained: no  
-    theme: flatly
+    theme: yeti
+    highlight: textmate
+    css: style.css
     include:
+      after_body: footer.html
 navbar:  
   title: "MetaPaleo"
   left:
@@ -18,4 +20,4 @@ navbar:
     - text: "TimeSeries"
       href: TimeSeries.html
     - text: "Peer Review"
-      href: PeerReview.html 
+      href: PeerReview.html
