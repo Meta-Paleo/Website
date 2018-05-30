@@ -19,5 +19,5 @@ This project can be openly contributed to on [GitHub](https://github.com/Meta-Pa
 ## Contributors
 - Dr. Jon Tennant
 - Prof. Dasapta Erwin Irawan
-- Dr. Manojkumar Selvaraju
+- Manojkumar Selvaraju
 - You?
