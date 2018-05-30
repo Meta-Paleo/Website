@@ -4,8 +4,9 @@ output_dir: "C:/Users/PC/Documents/Website"
 output:  
   html_document:  
     theme: yeti
-    highlight: textmate
     css: style.css
+    lib_dir: site_libs
+    self_contained: no
     include:
       after_body: footer.html
 navbar:  
