@@ -1,9 +1,9 @@
 name: "MetaPaleo"  
 author: "Jon Tennant"  
-output_dir: "C:/Users/PC/Documents/Website"  
+output_dir: "C:/Users/PC/Documents/GitHub/Website"  
 output:  
   html_document:  
-    theme: yeti
+    theme: flatly
     css: style.css
     lib_dir: site_libs
     self_contained: no
