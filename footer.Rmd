@@ -1,1 +1,0 @@
-<p> This website is licensed under an MIT media license. Theme is flatly. Source code can be found [here](https://github.com/Meta-Paleo/Website). Created by Jon Tennant. </p>
