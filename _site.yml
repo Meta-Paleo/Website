@@ -9,7 +9,6 @@ output:
       after_body: footer.html
 navbar:  
   title: "MetaPaleo"
-  type: inverse 
   left:
     - text: "Home"
       href: index.html
@@ -18,4 +17,6 @@ navbar:
     - text: "OpenPaleo"
       href: OpenPaleo.html
     - text: "TimeSeries"
-      href: TimeSeries.html 
+      href: TimeSeries.html
+    - text: "Peer Review"
+      href: PeerReview.html 

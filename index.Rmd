@@ -4,7 +4,4 @@ title: "MetaPaleo"
 
 I am an independent/rogue researcher, working on both Palaeontology and aspects of scholarly communication and open science. I received my PhD from Imperial College in 2017, where I was awarded the Janet Watson prize for research excellence. Details of my research are all available on my [personal website](http://fossilsandshit.com/research/).
 
-```{r}
-source("Readme.R") #edit this with something better
-```
-
+![Just a T. rex](Square_Logo.png)
