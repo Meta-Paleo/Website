@@ -1,5 +1,0 @@
----
-title: "Footer"
----
-
-<p>This website is licensed under an MIT license.</p>

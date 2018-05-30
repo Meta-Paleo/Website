@@ -6,7 +6,6 @@ output:
     self_contained: no  
     theme: flatly
     include:
-      after_body: footer.html
 navbar:  
   title: "MetaPaleo"
   left:
