@@ -27,9 +27,8 @@ Ultimately, this information might prove useful in developing standards, protoco
   1. [Citations versus OA state](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_distribution_oa_status).
 
 <p align="center">
-![Citations - OA versus non-OA](paleo_journals_citation_distribution_oa_status.png)
+  <img width="1500" height="750" src="paleo_journals_citation_distribution_oa_status.png">
 </p>
-
 
 ## Data sources
 
