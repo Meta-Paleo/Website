@@ -210,17 +210,81 @@ $(document).ready(function () {
 </div>
 
 
+<p>Open Paleo is an open project that anyone can contribute to on <a href="https://github.com/Meta-Paleo/OpenPaleo/">GitHub</a>. All data sources, methods, code, and results are openly shared for collaboration and inspection as the project evolves.</p>
+<p>We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.</p>
 <div id="project-concept" class="section level2">
 <h2>Project concept</h2>
 <p>The idea of this project is to perform a range of meta-analyses into the published Palaeontology literature. This will include looking at factors such as:</p>
 <ul>
 <li>Quantitative analysis of the ‘openness’ of Palaeontology research.</li>
-<li>Citation frequences for different journals, compared to their impact factors.</li>
-<li>How aware researchers are that they may have signed away copyright.</li>
+<li>Citation frequencies for different journals, compared to their impact factors.</li>
+<li>Whether an ‘Open Access citation advantage’ exists for Palaeontology.</li>
 </ul>
-<p>We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.</p>
 <p>Ultimately, this information might prove useful in developing standards, protocols, and best practices for palaeontological research and publishing.</p>
-<p>This project can be openly contributed to on <a href="https://github.com/Meta-Paleo/OpenPaleo">GitHub</a>.</p>
+</div>
+<div id="key-links" class="section level2">
+<h2>Key links</h2>
+<ul>
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/data">Data</a></li>
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/scripts">Analysis scripts</a></li>
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/results">Results</a> including:
+<ol style="list-style-type: decimal">
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/OA_analysis">Proportion of Open Access papers</a>.</li>
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_analysis">Citation frequencies</a>.</li>
+<li><a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_distribution_oa_status">Citations versus OA state</a>.</li>
+</ol></li>
+</ul>
+<p align="center">
+<img src="paleo_journals_citation_distribution_oa_status.png" alt="Citations - OA versus non-OA" />
+</p>
+</div>
+<div id="data-sources" class="section level2">
+<h2>Data sources</h2>
+<div id="google-scholar---completed" class="section level3">
+<h3>Google Scholar - COMPLETED</h3>
+<p>Journal selection was for the top-20 cited Paleontology journals according to <a href="https://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=soc_paleontology">Google Scholar</a>.</p>
+</div>
+<div id="scopus---completed" class="section level3">
+<h3>Scopus - COMPLETED</h3>
+<p>Metadata were extracted from Scopus journal-by-journal (as csv files), with the only filter being on the dates, constrained to published articles between 2015-2016. This includes information such as:</p>
+<ul>
+<li>Authors, titles, and year of publication.</li>
+<li>Number of citations (according to Scopus).</li>
+<li>Article Digital Object Identifier (DOI).</li>
+</ul>
+</div>
+<div id="clean-data---completed" class="section level3">
+<h3>Clean data - COMPLETED</h3>
+<p>Using <a href="https://github.com/ropensci/visdat">Visdat</a> R package to visually inspect the data, we were able to spot the <a href="./data/journal_data/05-Review_of_Palaeobotany_and_Palynology/">misaligned rows</a> and <a href="./data/journal_data/17-Bulletin_of_Geosciences/">block shifted columns</a>. These formatting errors were then fixed in MS-Excel and saved again in CSV format with UTF-8 encoding. Following this, the headers were formatted for user friendliness during analysis and the empty rows and columns were scrubbed off the data using <a href="https://github.com/sfirke/janitor">Janitor</a> R package.</p>
+</div>
+<div id="plos-one---completed" class="section level3">
+<h3>PLOS ONE - COMPLETED</h3>
+<p>Data for PLOS ONE were obtained using the Rplos package in R. The code, resulting data, and Unpaywall query results can all be found <a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data/PLOS%20ONE">here</a>. Note that some of the data here are different to that obtained to Scopus queries.</p>
+</div>
+<div id="unpaywall---completed" class="section level3">
+<h3>Unpaywall - COMPLETED</h3>
+<p>The next phase is to use the <a href="https://unpaywall.org/check-dois">Unpaywall DOI checker</a> on the DOI list for each journal. This provides information such as:</p>
+<ul>
+<li>The Open Access state (true or false)</li>
+<li>Publication date</li>
+<li>Source of evidence for Open Access status</li>
+</ul>
+<p>All of the results of these steps are available within this <a href="https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data">repository</a>.</p>
+</div>
+<div id="google-scholar---in-prep" class="section level3">
+<h3>Google Scholar - IN PREP</h3>
+<p>While Unpaywall checks to see if legitimate versions of articles have been made OA (i.e., via green self-archiving routes), researchers often also often tend to share their articles in non-copyright compliant ways. This includes on platforms such as ResearchGate or Academia.edu.</p>
+<p>Therefore, data will be cross-checked with Google Scholar, which has this information at an article-level, to see:</p>
+<ul>
+<li>Whether articles are freely available;</li>
+<li>Which versions are available;</li>
+<li>Which services or platforms are most used.</li>
+</ul>
+</div>
+<div id="wikidata-wikicite---in-prep" class="section level3">
+<h3>Wikidata / WikiCite - IN PREP</h3>
+<p><a href="https://meta.wikimedia.org/wiki/WikiCite">WikiCite</a> provides a lot of integrated data around scholarly literature, linking research papers with authors, topics, species, and much, much more. All data is CCZero and integrates many online resources. <a href="https://arxiv.org/abs/1703.04222">Scholia</a> gives an idea what it can <a href="https://tools.wmflabs.org/scholia/topic/Q7205">do for paleontology</a>.</p>
+</div>
 </div>
 <div id="contributors" class="section level2">
 <h2>Contributors</h2>
@@ -228,7 +292,6 @@ $(document).ready(function () {
 <li>Dr. Jon Tennant</li>
 <li>Prof. Dasapta Erwin Irawan</li>
 <li>Manojkumar Selvaraju</li>
-<li>You?</li>
 </ul>
 </div>
 
