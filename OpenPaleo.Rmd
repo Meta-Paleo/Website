@@ -17,6 +17,19 @@ The idea of this project is to perform a range of meta-analyses into the publish
 
 Ultimately, this information might prove useful in developing standards, protocols, and best practices for palaeontological research and publishing.
 
+## Key links
+
+* [Data](https://github.com/Meta-Paleo/OpenPaleo/tree/master/data)
+* [Analysis scripts](https://github.com/Meta-Paleo/OpenPaleo/tree/master/scripts)
+* [Results](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results) including:
+  1. [Proportion of Open Access papers](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/OA_analysis).
+  1. [Citation frequencies](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_analysis).
+  1. [Citations versus OA state](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_distribution_oa_status).
+
+<p align="center">
+![Citations - OA versus non-OA](paleo_journals_citation_distribution_oa_status.png)
+</p>
+
 
 ## Data sources
 
