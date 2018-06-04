@@ -2,6 +2,10 @@
 title: "Time Series"
 ---
 
+Time series analysis has become a widely used suite of methods in quantitative Palaeontology. However, there remains little consensus on the optimal ways to implement the methodology, given that it comprises a complex series of options throughout the different stages.
+
+This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/TimeSeries).
+
 ## Project concept
 
 The purpose of this project is to design a standardised protocol for the analysis of palaeontological time series data. This will include aspects such as:
@@ -12,4 +16,9 @@ The purpose of this project is to design a standardised protocol for the analysi
 * How to treat residual data, and statistical biases.
 * Model-fitting and correlation analyses.
 
-This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/TimeSeries).
+## Key links
+
+* [An introduction to using the paleobioDB package in R](https://github.com/Meta-Paleo/TimeSeries/blob/master/PaleoBioDB.md).
+* [Ke paper](https://github.com/Meta-Paleo/TimeSeries/tree/master/Key_papers).
+* [R code for calculating extinction rates](https://github.com/Meta-Paleo/TimeSeries/blob/master/Extinction_rates.r).
+* [Instructions on how to execute SQS in R and Perl](https://github.com/Meta-Paleo/TimeSeries/tree/master/SQS).
