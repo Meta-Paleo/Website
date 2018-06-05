@@ -19,6 +19,6 @@ The purpose of this project is to design a standardised protocol for the analysi
 ## Key links
 
 * [An introduction to using the paleobioDB package in R](https://github.com/Meta-Paleo/TimeSeries/blob/master/PaleoBioDB.md).
-* [Ke paper](https://github.com/Meta-Paleo/TimeSeries/tree/master/Key_papers).
+* [Key papers](https://github.com/Meta-Paleo/TimeSeries/tree/master/Key_papers).
 * [R code for calculating extinction rates](https://github.com/Meta-Paleo/TimeSeries/blob/master/Extinction_rates.r).
 * [Instructions on how to execute SQS in R and Perl](https://github.com/Meta-Paleo/TimeSeries/tree/master/SQS).
