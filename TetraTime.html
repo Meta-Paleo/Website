@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Jon Tennant" />
 
+<meta name="date" content="2019-08-02" />
 
-<title>About</title>
+<title>TetraTime</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -299,6 +301,9 @@ $(document).ready(function () {
 <li>
   <a href="PeerReview.html">Peer Review Transparency</a>
 </li>
+<li>
+  <a href="TetraTime.html">TetraTime</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -311,21 +316,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">TetraTime</h1>
+<h4 class="author">Jon Tennant</h4>
+<h4 class="date">2 August 2019</h4>
 
 </div>
 
 
-<p>This website is dedicated to the MetaPaleo research project. MetaPaleo is a series of interactive, collaborative and openly participatory sub-projects investigating large-scale aspects of Palaeontology research. Current projects include:</p>
+<div id="tetratime" class="section level1">
+<h1>TetraTime</h1>
+<p>Project to map growth of tetrapod clades through time</p>
+<p>Potential title: Tracking the growth of the fossil record</p>
+<p>This has already been done for <a href="https://peerj.com/articles/4417/">dinosaurs</a> - now let’s see what happens if we examine this for all tetrapod clades!</p>
+<p>Key research questions:</p>
 <ol style="list-style-type: decimal">
-<li><a href="https://github.com/Meta-Paleo/OpenPaleo">OpenPaleo</a></li>
-<li><a href="https://github.com/Meta-Paleo/TimeSeries">TimeSeries</a></li>
-<li><a href="https://github.com/Meta-Paleo/Peer-Review-Transparency">Peer Review Transparency</a></li>
-<li><a href="https://github.com/Meta-Paleo/TetraTime">TetraTime</a></li>
+<li>Do all clades show the same growth patterns?</li>
+<li>Are any clades ‘stable’?</li>
+<li>What implications does this have on their diversity/extinction patterns?</li>
+<li>What is the structure of growth in terms of geography?</li>
 </ol>
-<div id="an-open-project" class="section level1">
-<h1>An Open project</h1>
-<p>Want to propose something else? All data, code, methods, and live results are available on <a href="https://github.com/Meta-Paleo/">GitHub</a>. Anyone can contribute anything they want to this, irrespective of past experience.</p>
+<p>Data sources: <a href="http://fossilworks.org/bridge.pl?user=Guest&amp;action=displayDownloadForm">Fossilworks</a></p>
+<p>Notes on data selection: * Restricted to Mesozoic groups as the data are most complete * Downloaded occurences from <a href="http://fossilworks.org/bridge.pl?user=Guest&amp;action=displayDownloadForm">here</a> using the ‘full form’ option * Basic options: Set taxonomic level to species; set time span as ‘Mesozoic’ * Included collections: Keep all default options set * Included occurrences: Remove ichnofossils and form taxa; keep all other default options set * Colletion fields: basic fields, check all; geography fields, check all; time fields, check all; stratigraphy fields, check all; lithology fields, check all; no taphonomy or collection methods required * Occurence fields: check ocurence no, reference no, year published, taxon no, type specimen, type locality * Date downloaded: 02/08/2019</p>
+<p>Groups: * Dinosauria (minus Aves) * Aves * Testudinata * Choristodera * Crocodyliformes * Ichythyopterygia * Lepidosauromorpha * Lissamphibia * Mammaliaformes * Pterosauria * Sauropterygia</p>
+<p>Major data contributors: Matthew Carrano John Alroy Philip Mannion Roger Benson</p>
+<p>Visualisation ideas:</p>
+<ul>
+<li><p>Create a gif/video/dynamic figure showing how, for each clade, diversity patterns have changed through publication history.</p></li>
+<li><p>Create a gif/video/dynamic figure showing how, for each clade, the geographic distribution/discovery has changed through publication history</p></li>
+</ul>
 </div>
 
 This website is licensed under an MIT media license. Theme is flaty. Source code can be found <a href="https://github.com/Meta-Paleo/Website">here</a>. Created by Jon Tennant.
