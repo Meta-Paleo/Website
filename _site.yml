@@ -1,6 +1,6 @@
 name: "MetaPaleo"  
 author: "Jon Tennant"  
-output_dir: "C:/Users/PC/Documents/GitHub/Website"  
+output_dir: "."  
 output:  
   html_document:  
     theme: flatly

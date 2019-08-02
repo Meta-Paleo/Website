@@ -2,23 +2,86 @@
 title: "Open Paleo"
 ---
 
+Open Paleo is an open project that anyone can contribute to on [GitHub](https://github.com/Meta-Paleo/OpenPaleo/). All data sources, methods, code, and results are openly shared for collaboration and inspection as the project evolves.
+
+We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.
+
+
 ## Project concept
 
 The idea of this project is to perform a range of meta-analyses into the published Palaeontology literature. This will include looking at factors such as:
 
 * Quantitative analysis of the 'openness' of Palaeontology research.
-* Citation frequences for different journals, compared to their impact factors.
-* How aware researchers are that they may have signed away copyright.
-
-We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.
+* Citation frequencies for different journals, compared to their impact factors.
+* Whether an 'Open Access citation advantage' exists for Palaeontology.
 
 Ultimately, this information might prove useful in developing standards, protocols, and best practices for palaeontological research and publishing.
 
-This project can be openly contributed to on [GitHub](https://github.com/Meta-Paleo/OpenPaleo).
+## Key links
+
+* [Data](https://github.com/Meta-Paleo/OpenPaleo/tree/master/data)
+* [Analysis scripts](https://github.com/Meta-Paleo/OpenPaleo/tree/master/scripts)
+* [Results](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results) including:
+  1. [Proportion of Open Access papers](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/OA_analysis).
+  1. [Citation frequencies](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_analysis).
+  1. [Citations versus OA state](https://github.com/Meta-Paleo/OpenPaleo/tree/master/results/citation_distribution_oa_status).
+
+<p align="center">
+  <img width="1500" height="750" src="paleo_journals_citation_distribution_oa_status.png">
+</p>
+
+## Data sources
+
+### Google Scholar - COMPLETED
+
+Journal selection was for the top-20 cited Paleontology journals according to [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=soc_paleontology). 
+
+### Scopus - COMPLETED
+
+Metadata were extracted from Scopus journal-by-journal (as csv files), with the only filter being on the dates, constrained to published articles between 2015-2016. This includes information such as:
+
+- Authors, titles, and year of publication.
+- Number of citations (according to Scopus).
+- Article Digital Object Identifier (DOI).
+
+### Clean data - COMPLETED
+
+Using [Visdat](https://github.com/ropensci/visdat) R package to visually inspect the data, we were able to spot the [misaligned rows](./data/journal_data/05-Review_of_Palaeobotany_and_Palynology/) and [block shifted columns](./data/journal_data/17-Bulletin_of_Geosciences/). These formatting errors were then fixed in MS-Excel and saved again in CSV format with UTF-8 encoding. Following this, the headers were formatted for user friendliness during analysis and the empty rows and columns were scrubbed off the data using [Janitor](https://github.com/sfirke/janitor) R package.
+
+### PLOS ONE - COMPLETED
+
+Data for PLOS ONE were obtained using the Rplos package in R. The code, resulting data, and Unpaywall query results can all be found [here](https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data/PLOS%20ONE). Note that some of the data here are different to that obtained to Scopus queries.
+
+### Unpaywall - COMPLETED
+
+The next phase is to use the [Unpaywall DOI checker](https://unpaywall.org/check-dois) on the DOI list for each journal. This provides information such as:
+
+- The Open Access state (true or false)
+- Publication date
+- Source of evidence for Open Access status
+
+All of the results of these steps are available within this [repository](https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data).
+
+### Google Scholar - IN PREP
+
+While Unpaywall checks to see if legitimate versions of articles have been made OA (i.e., via green self-archiving routes), researchers often also often tend to share their articles in non-copyright compliant ways. This includes on platforms such as ResearchGate or Academia.edu.
+
+Therefore, data will be cross-checked with Google Scholar, which has this information at an article-level, to see: 
+
+- Whether articles are freely available; 
+- Which versions are available;
+- Which services or platforms are most used.
+
+
+### Wikidata / WikiCite - IN PREP
+
+[WikiCite](https://meta.wikimedia.org/wiki/WikiCite) provides a lot of integrated data around scholarly literature,
+linking research papers with authors, topics, species, and much, much more. All data is CCZero and integrates many
+online resources. [Scholia](https://arxiv.org/abs/1703.04222) gives an idea what it can [do for paleontology](https://tools.wmflabs.org/scholia/topic/Q7205).
+
 
 ## Contributors
 
 - Dr. Jon Tennant
 - Prof. Dasapta Erwin Irawan
 - Manojkumar Selvaraju
-- You?
