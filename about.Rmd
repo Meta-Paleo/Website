@@ -11,9 +11,7 @@ This website is dedicated to the MetaPaleo research project. MetaPaleo is a seri
  
 # An Open project
 
-Want to propose something else? All data, code, methods, and live results are available on the [GitHub](https://github.com/Meta-Paleo/) project page. 
-
-Anyone can contribute anything they want to this, irrespective of past experience.
+Want to propose something else? All data, code, methods, and live results are available on the [GitHub](https://github.com/Meta-Paleo/) project page. This site is constantly updated as the project evolves.
 
 # About me
 

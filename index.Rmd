@@ -9,19 +9,13 @@ Welcome to the MetaPaleo website! This project is for meta-analyses of Paleontol
  1. [Peer Review Transparency](https://meta-paleo.github.io/PeerReview.html)
  1. [TetraTime](https://github.com/Meta-Paleo/TetraTime)
  
- # An Open project
+# An Open project
  
 This project adheres to the principles of Open Science, in that all content and methods are openly and immediately shared to encourage collaboration and re-use.
 
 Want to propose something else? All data, code, methods, and live results are available on the [GitHub](https://github.com/Meta-Paleo/) project page. 
 
 Anyone can contribute anything they want to this, irrespective of past experience.
-
-# About me
-
-I am an independent/rogue researcher, working on both Palaeontology and aspects of scholarly communication and open science. I received my PhD from Imperial College in 2017, where I was awarded the Janet Watson prize for research excellence. 
-
-Details of my research are all available on my [personal website](http://fossilsandshit.com/research/).
 
 <p align="center">
 ![Tyrannosaurus](Square_logo.png)\
