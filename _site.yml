@@ -1,15 +1,15 @@
-name: "MetaPaleo"  
-author: "Jon Tennant"  
-output_dir: "."  
-output:  
-  html_document:  
+name: "MetaPaleo"
+author: "Jon Tennant"
+output_dir: "."
+output:
+  html_document:
     theme: flatly
     css: style.css
     lib_dir: site_libs
     self_contained: no
     include:
       after_body: footer.html
-navbar:  
+navbar:
   title: "MetaPaleo"
   left:
     - text: "Home"
@@ -22,6 +22,3 @@ navbar:
       href: TimeSeries.html
     - text: "Peer Review Transparency"
       href: PeerReview.html
-    - text: "TetraTime"
-      href: TetraTime.html
-      
