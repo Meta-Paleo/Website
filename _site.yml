@@ -22,3 +22,5 @@ navbar:
       href: TimeSeries.html
     - text: "Peer Review Transparency"
       href: PeerReview.html
+    - text: "TetraTime"
+      href: TetraTime.html
