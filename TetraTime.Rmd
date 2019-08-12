@@ -3,7 +3,7 @@ title: "TetraTime"
 output: html_document
 ---
 
-Aim: To analyse the growth of tetrapod clades through time
+**Aim**: To analyse the growth of tetrapod clades through time
 
 Potential title: Tracking the growth of the fossil record
 
@@ -19,38 +19,47 @@ Key research questions:
 Data sources: [Fossilworks](http://fossilworks.org/bridge.pl?user=Guest&action=displayDownloadForm)
 
 Notes on data selection:
-* Restricted to Mesozoic groups as the data are most complete
-* Downloaded occurences from [here](http://fossilworks.org/bridge.pl?user=Guest&action=displayDownloadForm) using the 'full form' option
-* Basic options: Set taxonomic level to species; set time span as 'Mesozoic'
-* Included collections: Keep all default options set
-* Included occurrences: Remove ichnofossils and form taxa; keep all other default options set
-* Colletion fields: basic fields, check all; geography fields, check all; time fields, check all; stratigraphy fields, check all; lithology fields, check all; no taphonomy or collection methods required
-* Occurence fields: check ocurence no, reference no, year published, taxon no, type specimen, type locality
-* Date downloaded: 02/08/2019
+1. Restricted to Mesozoic groups as the data are most complete
+2. Downloaded occurences from [here](http://fossilworks.org/bridge.pl?user=Guest&action=displayDownloadForm) using the 'full form' option
+3. Basic options: Set taxonomic level to species; set time span as 'Mesozoic'
+4. Included collections: Keep all default options set
+5. Included occurrences: Remove ichnofossils and form taxa; keep all other default options set
+6. Colletion fields: basic fields, check all; geography fields, check all; time fields, check all; stratigraphy fields, check all; lithology fields, check all; no taphonomy or collection methods required
+7. Occurence fields: check ocurence no, reference no, year published, taxon no, type specimen, type locality
+8. Date downloaded: 02/08/2019
 
 Groups:
-* Dinosauria (minus Aves)
-* Aves
-* Testudinata
-* Choristodera
-* Crocodyliformes
-* Ichythyopterygia
-* Lepidosauromorpha
-* Lissamphibia
-* Mammaliaformes
-* Pterosauria
-* Sauropterygia
+- Dinosauria (minus Aves)
+- Aves
+- Testudinata
+- Choristodera
+- Crocodyliformes
+- Ichythyopterygia
+- Lepidosauromorpha
+- Lissamphibia
+- Mammaliaformes
+- Pterosauria
+- Sauropterygia
 
 Major data contributors:
-Matthew Carrano
-John Alroy
-Philip Mannion
-Roger Benson
+1. Matthew Carrano
+2. John Alroy
+3. Philip Mannion
+4. Roger Benson
 
 Visualisation ideas:
 
-* Create a gif/video/dynamic figure showing how, for each clade, diversity patterns have changed through publication history.
+1.  Create a gif/video/dynamic figure showing how, for each clade, diversity patterns have changed through publication history.
 
-* Create a gif/video/dynamic figure showing how, for each clade, the geographic distribution/discovery has changed through publication history 
+2. Create a gif/video/dynamic figure showing how, for each clade, the geographic distribution/discovery has changed through publication history 
 
-This project can be contributed to on [GitHub](https://github.com/Meta-Paleo/TetraTime).
+## Contributing
+
+TetraTime is an open project that anyone can contribute to on [GitHub](https://github.com/Meta-Paleo/TetraTime). All data sources, methods, code, and results are openly shared for collaboration and inspection as the project evolves.
+
+We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.
+
+### Contributors:
+- Jon Tennant
+- [Liubov Tiupikina](https://twitter.com/luyibov)
+- [Marc Santolini](https://twitter.com/msantolini)

@@ -2,6 +2,8 @@
 title: "Peer Review Transparency"
 ---
 
+**Aim**: To investigate and improve the transparency of peer review in palaeontological journals.
+
 Peer review is widely considered fundamental to maintaining the rigour and validity of scholarly research. However, the process is often opaque, which can introduce bias into reporting standards for research, which reduces the overall quality of the published record.
 
 Presently, peer review is a non-standardised process, either across or within disciplines. Training and support is generally lacking, and it is often the case that reviewers, through no fault of their own, are unaware of the critical questions to be asking with respect to research design, methods, reporting, and analysis.
@@ -13,3 +15,12 @@ The aim of the Peer Review Transparency, therefore, is to create a community-cra
 There is a great potential for such guidelines to become commonly adopted, to help strengthen the overall review process, while acting as an educational resource for reviewers. We anticipate that this will help to reduce bias and increase transparency, overall increasing the health of peer review in Palaeontology, and therefore become a valuable resource for the global Palaeontology community.
 
 Key papers related to this project can be found [here](https://github.com/Meta-Paleo/Peer-Review-Transparency/tree/master/Key%20papers).
+
+## Contributing
+
+Peer Review Transparency is an open project that anyone can contribute to on [GitHub](https://github.com/Meta-Paleo/Peer-Review-Transparency). All data sources, methods, code, and results are openly shared for collaboration and inspection as the project evolves.
+
+We strongly encourage others to participate in the project, propose their own ideas, and to contribute or re-use any of the data or other information available here.
+
+### Contributors
+- Jon Tennant
