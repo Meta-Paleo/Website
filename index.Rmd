@@ -9,7 +9,6 @@ Welcome to the MetaPaleo website! This project is for meta-analyses of Paleontol
  1. [Peer Review Transparency](https://meta-paleo.github.io/PeerReview.html)
  1. [TetraTime](https://github.com/Meta-Paleo/TetraTime)
 
- 
 This project adheres to the principles of Open Science, in that all content and methods are openly and immediately shared to encourage collaboration and re-use.
 
 <p align="center">
