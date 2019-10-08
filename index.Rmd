@@ -8,6 +8,7 @@ Welcome to the MetaPaleo website! This project is for meta-analyses of Paleontol
  1. [TimeSeries](https://meta-paleo.github.io/TimeSeries.html)
  1. [Peer Review Transparency](https://meta-paleo.github.io/PeerReview.html)
  1. [TetraTime](https://github.com/Meta-Paleo/TetraTime)
+ 1. [Paleome](https://github.com/Meta-Paleo/Paleome)
  
 # An Open project
  

@@ -24,3 +24,5 @@ navbar:
       href: PeerReview.html
     - text: "TetraTime"
       href: TetraTime.html
+    - text: "Paleome"
+      href: "Paleome.html"

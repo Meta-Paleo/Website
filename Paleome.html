@@ -12,7 +12,7 @@
 
 
 
-<title>MetaPaleo</title>
+<title>Paleome.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -305,29 +305,100 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MetaPaleo</h1>
 
 </div>
 
 
-<p>Welcome to the MetaPaleo website! This project is for meta-analyses of Paleontological research, including:</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://meta-paleo.github.io/OpenPaleo.html">OpenPaleo</a></li>
-<li><a href="https://meta-paleo.github.io/TimeSeries.html">TimeSeries</a></li>
-<li><a href="https://meta-paleo.github.io/PeerReview.html">Peer Review Transparency</a></li>
-<li><a href="https://github.com/Meta-Paleo/TetraTime">TetraTime</a></li>
-<li><a href="https://github.com/Meta-Paleo/Paleome">Paleome</a></li>
-</ol>
-<div id="an-open-project" class="section level1">
-<h1>An Open project</h1>
-<p>This project adheres to the principles of Open Science, in that all content and methods are openly and immediately shared to encourage collaboration and re-use.</p>
-<p>Want to propose something else? All data, code, methods, and live results are available on the <a href="https://github.com/Meta-Paleo/">GitHub</a> project page.</p>
-<p>Anyone can contribute anything they want to this, irrespective of past experience.</p>
+<div id="paleome" class="section level1">
+<h1>Paleome</h1>
+<p>Reconstructing dinosaur networks from site collection open data to better understand ancestral ecosystems.</p>
+<div id="about" class="section level2">
+<h2>About</h2>
+<p>In this project, we aim to reconstruct dinosaur networks from Open Paleontology data from the Paleobiology Database. Built from site co-occurence data, these networks represent for the first time dinosaurian ecosystems and their relationships. In particular, we aim to better understand the link between dinosaur centrality and their survival across time, and see what we can learn about the relationships between dinosaur collections through time.</p>
 <p align="center">
-<img src="Square_logo.png" alt="Tyrannosaurus" /><br />
+<img src="network_dinos.png" alt="Network" /><br />
 
 </p>
-<p>For more information, please see the <a href="https://meta-paleo.github.io/about.html">About</a> page.</p>
+<p>Example of a dinosaur network reconstructed from co-occurence of observations from site collection data. Color represent the maximum age of the discovered dinosaur (most recent, white, to oldest, purple).</p>
+</div>
+<div id="research-direction" class="section level2">
+<h2>Research direction</h2>
+<p>Below you can find some preliminary notes on the project:</p>
+<p><strong>General idea: Apply network analysis to dinosaur data from the Paleobiology Database</strong></p>
+<p>Things to explore:</p>
+<ul>
+<li>Centrality of ‘famous’ dig sites, I.e., where new genera or species were located (holotypes)</li>
+<li>Famous sites from the ‘Bone Wars’</li>
+<li>Evidence for any bonanza effect? I.e., once something is discovered, people keep going back and sampling more</li>
+<li>How are dinos connected to each other in space and time</li>
+<li>Any possible ecological coupling?</li>
+<li>Possible focus on North America due to good fossil record and geographic constraint</li>
+<li>Can do location wrt distance from major cities</li>
+<li>Dinosaur temporal diversity trends:
+<ul>
+<li>Dino ID</li>
+<li>Date of first discovery</li>
+<li>Date of subsequent discoveries</li>
+<li>Plot ‘interest’ or ‘discovery’ curves for different species</li>
+<li>Can choose ‘iconic’ species perhaps</li>
+<li>Singletons (i.e., single occurrences) won’t work here</li>
+</ul></li>
+</ul>
+<div id="potential-hypotheses-to-test" class="section level3">
+<h3>Potential hypotheses to test:</h3>
+<ul>
+<li>Is there a ‘bonanza effect’ around historically famous/important sites?</li>
+<li>Preferential attachement</li>
+<li>Can ‘keystone species’ be identified within ecological networks?</li>
+<li>Hubs vs what appears in Jurassic Park</li>
+<li>Is there a “Jurrasic park” effect in number of discoveries of dinos present in the movie?</li>
+<li>Is there a relationship between ‘importance’ within a network and species duration?</li>
+<li>Oldest vs youngest ma of all occurences of dinosaur</li>
+<li>How does interest in iconic species vary through time?</li>
+</ul>
+</div>
+<div id="notes-on-data" class="section level3">
+<h3>Notes on data:</h3>
+<ul>
+<li>Have to exclude singleton species/genus occurrences (i.e., things that we only have one fossil of)</li>
+<li>Can be broken down through time (Triassic, Jurassic, Cretaceous)</li>
+<li>Continents looked very different back then too</li>
+<li>Have palaeolatitude/longitude so networks can be projected onto palaeomap data</li>
+<li>Things like ‘Coeluerosauria’ or ‘Theropoda’ have to be removed from data</li>
+<li>Some things appear twice too. Eg Deinonychus and Deinonychus anitirrhopus. Suggest doing just at the genus level in this case.</li>
+</ul>
+</div>
+<div id="what-data-might-be-useful-from-this" class="section level3">
+<h3>What data might be useful from this</h3>
+<ul>
+<li>Whether it is a new genus or species discovered</li>
+<li>Note see DY and EC in pbdbd_data2.csv for this</li>
+<li>max_ma and min_ma</li>
+<li>The difference between these is a proxy for the occurrence duration. Can pick the lowest and highest for these per genus/species to get an estimate of species duration.</li>
+<li>Palaeolatitude and palaeolongitude</li>
+<li>Present latitude and longitude</li>
+<li>Formation name</li>
+<li>Lithology (rock type)</li>
+<li>Environment</li>
+<li>Fluvial/lacustrine etc (inland) versus shoreward (e.g., estuaries/coastal)</li>
+<li>Lagerstatten (yes/no)</li>
+<li>Collectors - can look for prominent names (e.g., Osborn, Huxley, Marsh)</li>
+<li>Also has authors</li>
+<li>Diet: herbivore/omnivore/carnivore</li>
+<li>Note that diet is based on taxonomic assignment</li>
+<li>Reference (including year of publication)</li>
+<li>Note, this is not the same as when the data were entered into the PBDB *Time bins - can separate into Triassic/Jurassic/Cretaceous</li>
+</ul>
+</div>
+<div id="preliminary-data" class="section level3">
+<h3>Preliminary Data:</h3>
+<p>Downloaded 2019-06-14</p>
+<p align="center">
+<img src="database.png" alt="Database" /><br />
+
+</p>
+</div>
+</div>
 </div>
 
 This website is licensed under an MIT media license. Theme is flaty. Source code can be found at <a href="https://github.com/Meta-Paleo/meta-paleo.github.io">https://github.com/Meta-Paleo/meta-paleo.github.io</a>. Created by Jon Tennant.

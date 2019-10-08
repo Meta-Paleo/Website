@@ -1,0 +1,85 @@
+# Paleome
+Reconstructing dinosaur networks from site collection open data to better understand ancestral ecosystems.
+
+## About
+
+In this project, we aim to reconstruct dinosaur networks from Open Paleontology data from the Paleobiology Database. Built from site co-occurence data, these networks represent for the first time dinosaurian ecosystems and their relationships. In particular, we aim to better understand the link between dinosaur centrality and their survival across time, and see what we can learn about the relationships between dinosaur collections through time.
+
+<p align="center">
+![Network](network_dinos.png)\
+</p>
+
+Example of a dinosaur network reconstructed from co-occurence of observations from site collection data. Color represent the maximum age of the discovered dinosaur (most recent, white, to oldest, purple).
+
+## Research direction
+
+Below you can find some preliminary notes on the project:
+
+**General idea: Apply network analysis to dinosaur data from the Paleobiology Database**
+
+Things to explore:
+
+* Centrality of ‘famous’ dig sites, I.e., where new genera or species were located (holotypes)
+* Famous sites from the ‘Bone Wars’
+* Evidence for any bonanza effect? I.e., once something is discovered, people keep going back and sampling more
+* How are dinos connected to each other in space and time
+* Any possible ecological coupling?
+* Possible focus on North America due to good fossil record and geographic constraint
+* Can do location wrt distance from major cities
+* Dinosaur temporal diversity trends:
+  * Dino ID
+  * Date of first discovery
+  * Date of subsequent discoveries
+  * Plot ‘interest’ or ‘discovery’ curves for different species
+  * Can choose ‘iconic’ species perhaps
+  * Singletons (i.e., single occurrences) won’t work here
+
+### Potential hypotheses to test:
+
+* Is there a ‘bonanza effect’ around historically famous/important sites?
+* Preferential attachement
+* Can ‘keystone species’ be identified within ecological networks?
+* Hubs vs what appears in Jurassic Park
+* Is there a “Jurrasic park” effect in number of discoveries of dinos present in the movie?
+* Is there a relationship between ‘importance’ within a network and species duration?
+* Oldest vs youngest ma of all occurences of dinosaur
+* How does interest in iconic species vary through time?
+
+### Notes on data:
+
+* Have to exclude singleton species/genus occurrences (i.e., things that we only have one fossil of)
+* Can be broken down through time (Triassic, Jurassic, Cretaceous)
+* Continents looked very different back then too
+* Have palaeolatitude/longitude so networks can be projected onto palaeomap data
+* Things like ‘Coeluerosauria’ or ‘Theropoda’ have to be removed from data
+* Some things appear twice too. Eg Deinonychus and Deinonychus anitirrhopus. Suggest doing just at the genus level in this case. 
+
+
+### What data might be useful from this
+
+* Whether it is a new genus or species discovered
+* Note see DY and EC in pbdbd_data2.csv for this
+* max_ma and min_ma
+* The difference between these is a proxy for the occurrence duration. Can pick the lowest and highest for these per genus/species to get an estimate of species duration.
+* Palaeolatitude and palaeolongitude
+* Present latitude and longitude
+* Formation name
+* Lithology (rock type)
+* Environment
+* Fluvial/lacustrine etc (inland) versus shoreward (e.g., estuaries/coastal)
+* Lagerstatten (yes/no)
+* Collectors - can look for prominent names (e.g., Osborn, Huxley, Marsh)
+* Also has authors
+* Diet: herbivore/omnivore/carnivore
+* Note that diet is based on taxonomic assignment
+* Reference (including year of publication)
+* Note, this is not the same as when the data were entered into the PBDB
+*Time bins - can separate into Triassic/Jurassic/Cretaceous
+
+### Preliminary Data:
+
+Downloaded 2019-06-14
+
+<p align="center">
+![Database](database.png)\
+</p>

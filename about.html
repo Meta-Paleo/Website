@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -245,18 +245,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -302,6 +290,9 @@ $(document).ready(function () {
 <li>
   <a href="TetraTime.html">TetraTime</a>
 </li>
+<li>
+  <a href="Paleome.html">Paleome</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -325,6 +316,7 @@ $(document).ready(function () {
 <li><a href="https://github.com/Meta-Paleo/TimeSeries">TimeSeries</a></li>
 <li><a href="https://github.com/Meta-Paleo/Peer-Review-Transparency">Peer Review Transparency</a></li>
 <li><a href="https://github.com/Meta-Paleo/TetraTime">TetraTime</a></li>
+<li><a href="https://github.com/Meta-Paleo/Paleome">Paleome</a></li>
 </ol>
 <div id="an-open-project" class="section level1">
 <h1>An Open project</h1>
@@ -355,6 +347,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
