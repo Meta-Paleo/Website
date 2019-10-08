@@ -33,3 +33,10 @@ We strongly encourage others to participate in the project, propose their own id
 
 ### Contributors
 - Jon Tennant
+
+### Citation
+
+Jon Tennant. (2019, October 8). Meta-Paleo/TimeSeries: First release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3476298
+
+<a href="https://doi.org/10.5281/zenodo.3476298"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3476298.svg" alt="DOI"></a>
+

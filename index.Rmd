@@ -16,10 +16,21 @@ This project adheres to the principles of Open Science, in that all content and 
 
 Want to propose something else? All data, code, methods, and live results are available on the [GitHub](https://github.com/Meta-Paleo/) project page. 
 
-Anyone can contribute anything they want to this, irrespective of past experience.
+Anyone can contribute anything they want to this, irrespective of past experience. Contributions are automatically tracked guaranteeing attribution and project authorship.
+
+Each project is indexed on Zenodo as part of the [Meta-Paleo Community](https://zenodo.org/communities/meta-paleo/). Here, each time a project is updated on GitHub as a new version, the new content and contributions are automatically integrated into the community project space, and granted an updated DOI. Neat huh.
 
 <p align="center">
 ![Tyrannosaurus](Square_logo.png)\
 </p>
 
 For more information, please see the [About](https://meta-paleo.github.io/about.html) page.
+
+You can even cite this website! 
+
+Jon Tennant, & Achintya Rao. (2019, October 8). Meta-Paleo/meta-paleo.github.io: First release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3476286
+
+<a href="https://doi.org/10.5281/zenodo.3476286"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3476286.svg" alt="DOI"></a>
+
+
+

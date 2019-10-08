@@ -83,3 +83,9 @@ Downloaded 2019-06-14
 <p align="center">
 ![Database](database.png)\
 </p>
+
+### Citation
+
+Marc Santolini, & Jon Tennant. (2019, October 8). Meta-Paleo/Paleome: First release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3476300
+
+<a href="https://doi.org/10.5281/zenodo.3476300"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3476300.svg" alt="DOI"></a>

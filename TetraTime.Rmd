@@ -63,3 +63,9 @@ We strongly encourage others to participate in the project, propose their own id
 - Jon Tennant
 - [Liubov Tiupikina](https://twitter.com/luyibov)
 - [Marc Santolini](https://twitter.com/msantolini)
+
+### Citation
+
+Jon Tennant. (2019, October 8). Meta-Paleo/TetraTime: First release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3476294
+
+<a href="https://doi.org/10.5281/zenodo.3476294"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3476294.svg" alt="DOI"></a>

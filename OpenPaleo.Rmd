@@ -93,3 +93,10 @@ online resources. [Scholia](https://arxiv.org/abs/1703.04222) gives an idea what
 - Manojkumar Selvaraju
 - Dean Lomax
 - Andy Farke
+- Egon Willighagen
+
+### Citation
+
+Manojkumar Selvaraju, Jon Tennant, & Egon Willighagen. (2019, October 8). Meta-Paleo/OpenPaleo: First release (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3476290
+
+<a href="https://doi.org/10.5281/zenodo.3476290"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3476290.svg" alt="DOI"></a>
